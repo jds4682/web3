@@ -1,0 +1,76 @@
+.head {
+    background-color: navy;
+    color: white;
+    height: 50px;
+    margin-bottom: 0px;
+    border-bottom: solid white 5px;
+    padding-left: 15px;
+}
+
+#gaesipan {
+    margin-top: 50px;
+    color: skyblue;
+}
+
+#gaesipan a {
+    text-decoration: none;
+}
+
+#gaesipan a:link {
+    color: skyblue;
+}
+
+#gaesipan a:visited {
+    color: skyblue;
+}
+
+.string {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.write {
+    flex-basis: 50px;
+    border-top: solid gainsboro 2px;
+    list-style-type: none;
+}
+
+.write:nth-child(10) {
+    border-bottom: solid gainsboro 2px;
+}
+
+.page {
+    display: flex;
+    margin-top: 100px;
+    padding-left: 40%;
+}
+
+.page li {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.page li a {
+    text-decoration: none;
+}
+
+.page a:link {
+    color: gainsboro;
+}
+
+.page a:visited {
+    color: gainsboro;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer a:link {
+    color: gainsboro;
+}
+
+.footer a:visited {
+    color: gainsboro;
+}

@@ -1,0 +1,157 @@
+.name {
+    background-color: navy;
+    color: white;
+    height: 50px;
+    margin-bottom: 0px;
+    border-bottom: solid white 5px;
+    padding-left: 15px;
+}
+
+nav {
+    background-color: navy;
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.menu li {
+    flex-basis: 100px;
+    font-size: 14px;
+    background-color: navy;
+    color: lavender;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 15px;
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:link {
+    color: white;
+}
+
+.menu li a:visited {
+    color: white;
+}
+
+ul {
+    margin: 0;
+}
+
+ul li {
+    padding: 20px;
+    list-style-type: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: dotted gainsboro 1px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:link {
+    color: black;
+}
+
+ul li a:visited {
+    color: black;
+}
+
+.A {
+    height: 100%;
+    border: solid 5px navy;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+.box {
+    flex-basis: 50%;
+    border: solid 5px navy;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box:nth-child(1) {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 10px;
+}
+
+.box:nth-child(2) {
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 10px;
+}
+
+.child1 {
+    border: solid 5px navy;
+    flex-basis: 50%
+}
+
+.child2 {
+    border: solid 5px navy;
+    flex-basis: 50%
+}
+
+.child1:nth-child(1) {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.child1:nth-child(2) {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.child2:nth-child(1) {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.child2:nth-child(2) {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+h2 {
+    border-bottom: solid gainsboro 1px;
+}
+
+h2 a {
+    padding-left: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+h2 a:link {
+    color: skyblue;
+    border-bottom: gray;
+}
+
+h2 a:hover {
+    color: skyblue;
+    border-bottom: gray;
+}
+
+h2 a:visited {
+    color: skyblue;
+    border-bottom: gray;
+}
